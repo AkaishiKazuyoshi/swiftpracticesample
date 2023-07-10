@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A view displaying information about a hike, including an elevation graph.
-*/
-
 import SwiftUI
 
 struct HikeView: View {
@@ -32,7 +25,10 @@ struct HikeView: View {
                         .labelStyle(.iconOnly)
                         .imageScale(.large)
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
+                        .animation(.easeInOut, value: showDetail)
+                        .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
+                        .animation(.spring(), value: showDetail)
                 }
             }
 
