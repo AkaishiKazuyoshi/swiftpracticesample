@@ -39,6 +39,7 @@
 		CEC443272A5E61DA0007333B /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443262A5E61DA0007333B /* ProfileHost.swift */; };
 		CEC443292A5E63510007333B /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443282A5E63510007333B /* ProfileSummary.swift */; };
 		CEC4432B2A5E65E50007333B /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4432A2A5E65E50007333B /* HikeBadge.swift */; };
+		CEC4432F2A5E71AE0007333B /* ProfileEditer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4432E2A5E71AE0007333B /* ProfileEditer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		CEC443262A5E61DA0007333B /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		CEC443282A5E63510007333B /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		CEC4432A2A5E65E50007333B /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		CEC4432E2A5E71AE0007333B /* ProfileEditer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 			children = (
 				CEC443262A5E61DA0007333B /* ProfileHost.swift */,
 				CEC443282A5E63510007333B /* ProfileSummary.swift */,
+				CEC4432E2A5E71AE0007333B /* ProfileEditer.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				CEC4430F2A5BE3D70007333B /* Badge.swift in Sources */,
 				CE0630332A5B880900713443 /* MapView.swift in Sources */,
 				CEC4431A2A5BE7D70007333B /* GraphCapsule.swift in Sources */,
+				CEC4432F2A5E71AE0007333B /* ProfileEditer.swift in Sources */,
 				CE0630232A5B82FD00713443 /* LandmarksApp.swift in Sources */,
 				CEC443032A5BD2560007333B /* FavoriteButton.swift in Sources */,
 				CEC443232A5BF07C0007333B /* CategoryItem.swift in Sources */,
