@@ -43,6 +43,7 @@
 		CEC443322A5EA25A0007333B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443312A5EA2590007333B /* PageViewController.swift */; };
 		CEC443342A5EA9F50007333B /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443332A5EA9F50007333B /* FeatureCard.swift */; };
 		CEC443362A5EADCC0007333B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443352A5EADCC0007333B /* PageView.swift */; };
+		CEC443382A5ECDC20007333B /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC443372A5ECDC20007333B /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		CEC443312A5EA2590007333B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		CEC443332A5EA9F50007333B /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		CEC443352A5EADCC0007333B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		CEC443372A5ECDC20007333B /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +184,6 @@
 			children = (
 				CE0630592A5B9C9A00713443 /* LandmarkList.swift */,
 				CEC443332A5EA9F50007333B /* FeatureCard.swift */,
-				CEC443352A5EADCC0007333B /* PageView.swift */,
 				CE0630572A5B9A7C00713443 /* LandmarkRow.swift */,
 				CE06305B2A5BA1C700713443 /* LandmarkDetail.swift */,
 			);
@@ -246,7 +247,9 @@
 		CEC443302A5EA1050007333B /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				CEC443352A5EADCC0007333B /* PageView.swift */,
 				CEC443312A5EA2590007333B /* PageViewController.swift */,
+				CEC443372A5ECDC20007333B /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				CE0630332A5B880900713443 /* MapView.swift in Sources */,
 				CEC4431A2A5BE7D70007333B /* GraphCapsule.swift in Sources */,
 				CEC4432F2A5E71AE0007333B /* ProfileEditer.swift in Sources */,
+				CEC443382A5ECDC20007333B /* PageControl.swift in Sources */,
 				CE0630232A5B82FD00713443 /* LandmarksApp.swift in Sources */,
 				CEC443032A5BD2560007333B /* FavoriteButton.swift in Sources */,
 				CEC443232A5BF07C0007333B /* CategoryItem.swift in Sources */,
