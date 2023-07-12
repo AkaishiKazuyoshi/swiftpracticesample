@@ -157,13 +157,13 @@
 			isa = PBXGroup;
 			children = (
 				CE0630242A5B82FD00713443 /* ContentView.swift */,
+				CEC4432D2A5E6EF40007333B /* Category */,
 				CEC443042A5BD38C0007333B /* Landmarks */,
-				CEC443052A5BD39A0007333B /* Helpers */,
+				CEC443302A5EA1050007333B /* PageView */,
+				CEC4432C2A5E6EDC0007333B /* Profile */,
 				CEC443102A5BE5AF0007333B /* Badges */,
 				CEC443152A5BE7D70007333B /* Hikes */,
-				CEC4432C2A5E6EDC0007333B /* Profile */,
-				CEC4432D2A5E6EF40007333B /* Category */,
-				CEC443302A5EA1050007333B /* PageView */,
+				CEC443052A5BD39A0007333B /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
